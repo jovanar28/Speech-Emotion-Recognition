@@ -31,14 +31,14 @@ Applied only to the training data:
 - 1D convolution with 64/128 filters  
 - MaxPooling and Dropout layers  
 - Dense layers with ReLU/Sigmoid activations  
-- Accuracy: up to 65% (with MFCC and augmentation)
+- **Accuracy: up to 65% (with MFCC and augmentation)**
 ### 📌 LSTM (Long Short-Term Memory)
 - 3 LSTM layers with 256, 128, and 32 units  
 - Dropout, recurrent dropout, and kernel regularization  
 - Final Softmax output for 8 emotion classes  
-- Accuracy: ~68%
+- **Accuracy: ~68%**
 ### 📌 VGG16 (Transfer Learning)
 - Pretrained on ImageNet  
 - Base model frozen; custom Dense layers added  
 - Input: mel spectrogram images  
-- Highest accuracy: **70%**
+- **Highest accuracy: 70%**
