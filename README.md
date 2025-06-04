@@ -37,7 +37,7 @@ Applied only to the training data:
 - Dropout, recurrent dropout, and kernel regularization  
 - Final Softmax output for 8 emotion classes  
 - Accuracy: ~68%
-- ### 📌 VGG16 (Transfer Learning)
+### 📌 VGG16 (Transfer Learning)
 - Pretrained on ImageNet  
 - Base model frozen; custom Dense layers added  
 - Input: mel spectrogram images  
